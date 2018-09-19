@@ -19,7 +19,7 @@ const randArrayEl = function(arr) {
 const getFakeName = function() {
   const fakeFirsts = ['Toni', 'Guille', 'Santi', 'Facu', 'Alan', 'Pinki', 'Tincho', 'Solano', 'R2D2'];
   const fakeLasts = ['Scanlan', 'Aszyn', 'Tralice', 'Velasco', 'Sainz', 'Palacio', 'Palacios', 'Lidueña', 'Fisicaro', 'Ecma'];
-  return randArrayEl(fakeFirsts) /*+ " " + randArrayEl(fakeLasts)*/;
+  return randArrayEl(fakeFirsts) + " " + randArrayEl(fakeLasts);
 };
 const getFakeTweet = function() {
   const awesome_adj = ['increible', 'emocionante', 'increible', 'gracioso', 'dulce', 'cool',  'sorprendente', 'impresionante'];
